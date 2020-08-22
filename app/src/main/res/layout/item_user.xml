@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+        <variable
+            name="model"
+            type="com.rohit.phablefragmentapp.storage.UserData" />
+
+        <variable
+            name="itemClickListener"
+            type="com.rohit.phablefragmentapp.ui.listeners.ItemClickListener" />
+
+    </data>
+
+    <LinearLayout
+        android:id="@+id/clinicContactLV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen_16"
+        android:orientation="vertical"
+        android:onClick="@{() -> itemClickListener.onClick(model)}"
+        android:paddingLeft="@dimen/dimen_16"
+        android:paddingRight="@dimen/dimen_16">
+
+        <TextView
+            android:id="@+id/userNameTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@{model.user_name}"
+            android:singleLine="true"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:textColor="@color/darkBlue"
+            android:textSize="@dimen/text_16" />
+
+        <TextView
+            android:id="@+id/userEmailTv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@{model.user_email}"
+            android:singleLine="true"
+            android:inputType="textEmailAddress"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:textColor="@color/darkBlue"
+            android:textSize="@dimen/text_16" />
+    </LinearLayout>
+</layout>

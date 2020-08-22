@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">PhableFragmentApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="text_user_list">User List</string>
+    <string name="text_no_users">No users added. Please add a user.</string>
+    <string name="hint_name">Enter name</string>
+    <string name="hint_email">Enter email</string>
+    <string name="submit">Submit</string>
+    <string name="text_details">Details</string>
+    <string name="error_email">Enter valid email</string>
+    <string name="text_add_user">Add user</string>
+    <string name="text_edit_user">Edit user</string>
+</resources>

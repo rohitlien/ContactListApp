@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#19689A</color>
+    <color name="colorPrimaryDark">#043655</color>
+    <color name="colorAccent">#1D4178</color>
+
+
+    <color name="colorGrey">#bfbdbd</color>
+    <color name="colorGreyDark">#A9A9A9</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorLightGrey">#F5F5F5</color>
+    <color name="colorLightGrey1">#99F5F5F5</color>
+    <color name="red">#CC0000</color>
+    <color name="black">#000000</color>
+    <color name="blue">#7EA6E0</color>
+    <color name="inactivePinFieldColor">#808080</color>
+    <color name="pinFieldLibraryTransparent">#00000000</color>
+    <color name="colorButtonDisabledText">#40000000</color>
+
+
+    <color name="colorBgMedia">#000000</color>
+    <color name="lightGrey">#D3D3D3</color>
+    <color name="white">#FFFFFF</color>
+    <color name="bg_media_activity">#3E3E3E</color>
+    <color name="color_divider">#1A000000</color>
+
+    <color name="textColorDark">#141724</color>
+    <color name="textColorDarkGray">#333333</color>
+    <color name="colorBlue">#4085DE</color>
+    <color name="lightBlack">#99000000</color>
+
+    <color name="darkGreen">#0A7B00</color>
+    <color name="darkOrange">#FF8A00</color>
+    <color name="darkRed">#BA3627</color>
+    <color name="darkBlue">#162b3b</color>
+    <color name="lightBlue">#99162b3b</color>
+    <color name="yellow">#ECDB45</color>
+    <color name="light_red">#d75358</color>
+    <color name="green">#0EBF78</color>
+
+</resources>
